@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'kode mono', monospace;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-image: url(image/bg.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  
+}
+nav ul{
+  display: flex;
+  position: relative;
+  left: 80px;
+  gap: 15px;
+  padding: 5px;
+  background-color: #d9d9d928;
+}
+nav ul li a{
+  color: #808080;
+  font-size: small;
+}
+nav ul li a:hover{
+  color: rgb(84, 136, 32);
+}
+nav ul li a.active{
+  color: #fff;
+}
+.logo{
+  position: relative;
+  left: -300px;
+}
+.logo a{
+  color: #fff;
+  font-size: larger;
+  font-weight: 900;
+}
+.eth{
+  position: relative;
+  top: 7px;
+  left: 290px;
+  font-size: 132%;
+}
+.eth a .eth1{
+  width: 19px;
+  position: relative;
+  top: 2px;
+}
+.eth a{
+  color: #808080;
+  background-color: #d9d9d915;
+  padding: 4px;
+}
+.eth a .eth2{
+  width: 19px;
+}
+.eth a:hover{
+  color: rgb(84, 136, 32);
+}
+.connect{
+  position: relative;
+  top: 11px;
+  left: 320px;
+}
+.connect a{
+  color: #d1d0d0;
+  background-color: #1D4A18;
+  border-radius: 5px;
+  padding: 7px 3px;
+}
+.body{
+  display: flex;
+  justify-content: center;
+  padding: 90px 0px 0px;
+}
+.body h5{
+  background-color: #d9d9d915;
+  border: 1px solid #d9d9d915;
+  border-radius: 8px ;
+  padding: 0px 4px 4px;
+  color: #d9d9d97e;
+  font-size: 11px;
+}
+.body img{
+  width: 18px;
+  position: relative;
+  top:4px;
+  left: -2px;
+}
+h3{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 17px 0px;
+}
+h6{
+  color: #ffffff69;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 25px;
+}
+.img1{
+  width: 25px;
+  height: 25px;
+  background-color: #d9d9d915;
+  padding: 5px;
+}
+.img2{
+  width: 25px;
+  height: 25px;
+  background-color: #d9d9d915;
+  padding: 5px;
+}
+.img3{
+  width: 25px;
+  height: 25px;
+  background-color: #d9d9d915;
+  padding: 5px;
+}
+.img4{
+  width: 25px;
+  height: 25px;
+  background-color: #d9d9d915;
+  padding: 5px;
+}
+.connect-wallet{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 5px;
+}
+.connect-wallet .discover{
+  background-color: #d9d9d915;
+  font-size: 13px;
+  padding: 5px;
+  color: #fff;
+}
+.connect-wallet .discover img{
+  position: relative;
+  top: 2px;
+  padding: 0px 0px 0px 4px;
+}
+.connect-wallet .start{
+  background-color: #1D4A18;
+  font-size: 13px;
+  padding: 5px;
+  color: #fff;
+}
+.connect-wallet a:hover{
+  color: blueviolet;
+}
+.arrow{
+  display: flex;
+  justify-content: center;
+  padding: 67px;
+}
+.arrow img{
+  background-color: #d9d9d915;
+  padding: 8px;
+  border-radius: 15px;
+}
+.token .img6{
+  width: 15px;
+  height: 15px;
+}
+.doge{
+  position: relative;
+  bottom: 420px;
+  right: 570px;
+}
+.token .img7{
+  width: 9px;
+  height: 12px;
+}
+.bitcoin{
+  position: relative;
+  bottom: 280px;
+  right: 500px;
+}
+.token .img8{
+  width: 9px;
+  height: 12px;
+}
+.tether{
+  position: relative;
+  bottom: 180px;
+  right: 550px;
+}
+.token .img9{
+  width: 9px;
+  height: 12px;
+}
+.sol{
+  position: relative;
+  bottom: 170px;
+  right: 220px;
+}
+.token .img10{
+  width: 9px;
+  height: 12px;
+}
+.pol{
+  position: relative;
+  bottom: 520px;
+  left: 500px;
+}
+.token .img11{
+  width: 9px;
+  height: 12px;
+}
+.eth3{
+  position: relative;
+  bottom: 410px;
+  left: 430px;
+}
+.token .img12{
+  width: 9px;
+  height: 12px;
+}
+.meme{
+  position: relative;
+  bottom: 230px;
+  left: 430px;
+}
+
+@media only screen and (min-width: 768px){
+  
+}
